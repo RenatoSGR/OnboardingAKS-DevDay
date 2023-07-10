@@ -1,0 +1,21 @@
+az k8s-configuration flux create \
+   --name cluster-config \
+   --cluster-name noscluster \
+   --namespace flux-system \
+   --resource-group nos \
+   -u https://dev.azure.com/PoC-rr/gitops-aks/_git/arc-cicd-demo-gitops \
+   --scope cluster \
+   --cluster-type managedClusters \
+   --branch master \
+   --kustomization name=cluster-config prune=true path=arc-cicd-cluster/manifests
+   
+   
+helm upgrade -i gitops-connector gitops-connector/gitops-connector \
+      --namespace flux-system \
+      --set gitRepositoryType=AZDO \
+      --set ciCdOrchestratorType=AZDO \
+      --set gitOpsOperatorType=FLUX \
+      --set azdoGitOpsRepoName=arc-cicd-demo-gitops \
+      --set azdoOrgUrl=https://dev.azure.com/PoC-rr/gitops-aks \
+      --set gitOpsAppURL=https://dev.azure.com/PoC-rr/gitops-aks/_git/arc-cicd-demo-gitops \
+	  --set orchestratorPAT=r67lip6qfz5f4txkvurzolkn2qon4tsp3e25rqdj5vnnbjyr2s5q

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "I02aMhuTWTk4Y86nqh/oTlo0smvbL0Ek4yvaXPD5CD8=",
+  "Source": "PoCAppInsights",
+  "BasePath": "_content/PoCAppInsights",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

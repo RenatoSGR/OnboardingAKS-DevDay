@@ -1,0 +1,16 @@
+# keda scaledobject for web deployment using cpu trigger
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: web-scaledobject
+spec:
+  scaleTargetRef:
+    name: web
+  triggers:
+  - type: cpu
+    metricType: Utilization
+    metadata:
+      value: "50"
+
+      
+

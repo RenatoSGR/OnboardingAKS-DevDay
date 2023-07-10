@@ -1,0 +1,13 @@
+apiVersion: fleet.azure.com/v1alpha1
+kind: ClusterResourcePlacement
+metadata:
+  name: hello-world-1
+spec:
+  resourceSelectors:
+    - group: ""
+      version: v1
+      kind: Namespace
+      name: hello-world
+  policy:
+    clusterNames:
+      - MEMBER_CLUSTER_1
