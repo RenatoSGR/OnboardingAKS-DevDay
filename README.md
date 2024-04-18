@@ -56,10 +56,10 @@ For more in-depth knowledge on AKS and Kubernetes, check out the following resou
 
 - [Azure Kubernetes Service documentation](https://docs.microsoft.com/en-us/azure/aks/)
 - [Kubernetes official documentation](https://kubernetes.io/docs/home/)
-- [https://learn.microsoft.com/en-us/azure/aks/hybrid/connect-to-arc]
-- [https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks]
-- [https://learn.microsoft.com/en-us/azure/hdinsight-aks/monitor-with-prometheus-grafana]
-- [https://github.com/kubernetes/ingress-nginx]
+- [Azure Arc](https://learn.microsoft.com/en-us/azure/aks/hybrid/connect-to-arc)
+- [GitOps](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks)
+- [Monitoring - Grafana & Prometheus](https://learn.microsoft.com/en-us/azure/hdinsight-aks/monitor-with-prometheus-grafana)
+- [nginx](https://github.com/kubernetes/ingress-nginx)
 
 ### Contributing
 
