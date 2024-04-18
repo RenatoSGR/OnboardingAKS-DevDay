@@ -2,7 +2,7 @@
 
 ## Onboarding AKS - Dev Day
 
-![image](https://github.com/RenatoSGR/OnboardingAKS-DevDay/assets/31619062/8c8b3e57-44ce-4bc7-b502-f2ad344fd6fb)
+<![image](https://github.com/RenatoSGR/OnboardingAKS-DevDay/assets/31619062/8c8b3e57-44ce-4bc7-b502-f2ad344fd6fb) width="200" height="200">
 
 Welcome to the **Onboarding AKS - Dev Day** repository. This repository is designed to provide an immersive onboarding experience focused on the Azure Kubernetes Service (AKS). We've created a series of demos to enable a complete Dev Day experience.
 
