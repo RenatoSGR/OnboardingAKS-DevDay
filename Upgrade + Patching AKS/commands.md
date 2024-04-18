@@ -1,4 +1,3 @@
-## Talk about automatic patches 
 
 ## Remove usage of deprecated APIs (recommended)
 In the Azure portal, navigate to your cluster's overview page, and select Diagnose and solve problems.
